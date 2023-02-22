@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #151515;
+  --gray: #444;
+  --white: #fff;
+  --orange: #d5966c;
+}
+
+h1 {
+  font-family: "Big Shoulders Display";
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 55px;
+}
+
+p {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+button {
+  color: var(--white);
+  background-color: var(--black);
+
+  font-family: "Big Shoulders Display";
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 3.6px;
+  line-height: 24px;
+}
