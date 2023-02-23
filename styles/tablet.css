@@ -1,0 +1,14 @@
+@import url(./index.css);
+
+@media (min-width: 768px) {
+  .hero-img-mobile {
+    display: none;
+  }
+
+  .hero-img-desktop {
+    width: 437px;
+    height: 700px;
+
+    display: flex;
+  }
+}

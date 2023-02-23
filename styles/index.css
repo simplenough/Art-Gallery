@@ -1,0 +1,20 @@
+.hero-img-mobile {
+  width: 100vw;
+}
+
+.hero-img-desktop {
+  display: none;
+}
+
+.hero-article {
+  margin: 32px 16px 16px 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hero-article-button {
+  width: 260px;
+  height: 72px;
+}
