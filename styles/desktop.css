@@ -1,0 +1,30 @@
+@import url(./index.css);
+@import url(./tablet.css);
+
+.hero {
+  justify-content: flex-start;
+}
+
+.hero-block {
+  width: 450px;
+  height: 800px;
+
+  display: flex;
+  background-color: var(--black);
+}
+
+.hero-img-desktop {
+  width: 540px;
+  height: 800px;
+}
+
+.hero-article {
+  margin-left: -64px;
+  margin-top: -100px;
+  gap: 64px;
+}
+
+.hero-article-heading {
+  position: absolute;
+  left: 165px;
+}

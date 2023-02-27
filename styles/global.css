@@ -54,3 +54,15 @@ button {
     line-height: 65px;
   }
 }
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 96px;
+    line-height: 88px;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}

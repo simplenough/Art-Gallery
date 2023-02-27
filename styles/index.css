@@ -1,3 +1,7 @@
+.hero-block {
+  display: none;
+}
+
 .hero-img-mobile {
   width: 375px;
 }
