@@ -10,6 +10,10 @@
   display: none;
 }
 
+.hero-desktop-heading {
+  display: none;
+}
+
 .hero-article {
   margin: 32px 16px 16px 16px;
 
