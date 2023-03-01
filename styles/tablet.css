@@ -2,9 +2,7 @@
 
 @media (min-width: 768px) {
   .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
   }
 
   .hero-img-container {
