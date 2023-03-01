@@ -39,3 +39,48 @@
   width: 260px;
   height: 72px;
 }
+
+.grid-container {
+  margin-top: 100px;
+}
+
+.grid {
+  margin-bottom: 120px;
+  display: grid;
+  justify-content: center;
+  gap: 16px;
+}
+
+.grid-article-light {
+  display: grid;
+  gap: 18px;
+}
+
+.grid-article-p {
+  width: 343px;
+}
+
+.grid-article-dark {
+  width: 343px;
+  height: 293px;
+
+  padding: 40px 24px;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--black);
+}
+
+.grid-article-heading-dark {
+  width: 295px;
+
+  color: var(--white);
+}
+
+.grid-article-p-dark {
+  width: 295px;
+
+  color: var(--white);
+}
