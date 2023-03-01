@@ -14,9 +14,24 @@
     background-color: var(--black);
   }
 
+  .hero-img-container {
+    display: grid;
+  }
+
   .hero-img-desktop {
     width: 540px;
     height: 800px;
+
+    grid-area: one;
+  }
+
+  .hero-desktop-heading {
+    margin: 189px 0 0 -286px;
+    color: var(--white);
+
+    display: grid;
+    grid-area: one;
+    mix-blend-mode: difference;
   }
 
   .hero-article {
@@ -26,7 +41,6 @@
   }
 
   .hero-article-heading {
-    position: absolute;
-    left: 165px;
+    display: none;
   }
 }

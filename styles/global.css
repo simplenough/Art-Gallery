@@ -11,7 +11,8 @@
   --orange: #d5966c;
 }
 
-h1 {
+h1,
+.hero-desktop-heading {
   font-family: "Big Shoulders Display";
   font-size: 60px;
   font-weight: 900;
@@ -49,14 +50,16 @@ button {
 }
 
 @media (min-width: 768px) {
-  h1 {
+  h1,
+  .hero-desktop-heading {
     font-size: 70px;
     line-height: 65px;
   }
 }
 
 @media (min-width: 1440px) {
-  h1 {
+  h1,
+  .hero-desktop-heading {
     font-size: 96px;
     line-height: 88px;
   }
